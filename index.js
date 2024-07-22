@@ -17,7 +17,7 @@ mongoose.connect("mongodb://localhost:27017/internships").then(()=>{
     console.log("connected to database")
 })
 app.use("/auth",router)
-app.listen(3000,()=>{
-    console.log("server is running on port 3000")
+app.listen(3001,()=>{
+    console.log("server is running on port 3001")
 })
 
