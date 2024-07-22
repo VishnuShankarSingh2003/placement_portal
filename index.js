@@ -5,6 +5,8 @@ const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
 const router = require("./routes/userr")
 const cookieParser = require("cookie-parser")
+const bcrypt = require('bcryptjs');
+
 app.use(bodyParser.json())
 app.use(cookieParser())
 app.use(cors({
